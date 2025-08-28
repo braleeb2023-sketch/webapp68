@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edx08</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        .menu-container {
+            position: relative;
+        }
+
+        .menu-button {
+            width: 100px;
+            height: 100px;
+            background: rgb(219, 102, 248);
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .menu {
+            position: absolute;
+            top: 110px;
+            background: white;
+            border: 1px solid #cccccc;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            display: none;
+            flex-direction: column;
+            min-width: 120px;
+            cursor: pointer;
+        }
+
+        a {
+            padding: 10px 14px;
+            color: #333;
+            transition: 0.2s;
+        }
+        a:hover {
+            background: #f2f2f2;
+        }
+
+        .menu-container:hover .menu,
+        .menu-container:focus .menu {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+  <div class="menu-container" tabindex="0">
+    <div class="menu-button"></div>
+      <div class="menu">
+        <a>Home</a>
+        <a>Profile</a>
+        <a>Settings</a>
+        <a>Logout</a>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="price.php"method="POST" style="border: 2px; border-style: solid; padding: 25px; background-color: rgb(76, 191, 219); text-align:center;">
+        <h2>โปรแกรมคำนวณราคาสินค้า</h2>
+        <table>
+            <tr>
+                <td>ราคาสินค้าต่อชิ้น <input type="number" name="price"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>จำนวนชิ้นที่ซื้อ <input type="number" name="values"></td>
+            </tr>
+        </table>
+        <input type="submit" value="คำนวณราคา">
+        <input type="reset" value="ยกเลิก">
+    </form>
+    </div>
+</body>
+</html>

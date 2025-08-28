@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex05</title>
+    <style>
+    .container {               
+        max-width: 1200px;
+        height: 180px;
+        margin: 24px;
+        border: 2px solid #a7a7a7;
+        border-radius: 10px;
+        overflow-y: auto;
+        padding: 15px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 10px;
+    }
+
+    img {
+        width: 100px;
+        height: 160px;
+        border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+    <div class="grid">
+      <img src="images/dog1.jpg">
+      <img src="images/dog2.jpg">
+      <img src="images/dog3.jpg">
+      <img src="images/dog4.jpg">
+      <img src="images/dog5.jpg">
+      <img src="images/dog6.jpg">
+      <img src="images/dog7.jpg">
+      <img src="images/dog8.jpg">
+    </div>
+  </div>
+</body>
+</html>

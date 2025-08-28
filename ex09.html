@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex09</title>
+  <style>
+    .case {
+      margin: 30px;
+      display: flex;
+      gap: 80px;
+      font-size:20px;
+      border: 2px solid rgb(177, 177, 177);
+      padding: 20px;
+    }
+
+    .case div {
+      transition: opacity 0.2s;
+      cursor: pointer;
+    }
+
+    .case:hover div {
+      opacity: 0.3;
+    }
+
+    .case div:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="case">
+    <div>Case 1</div>
+    <div>Case 2</div>
+    <div>Case 3</div>
+  </div>
+</body>
+</html>

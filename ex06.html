@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex06</title>
+  <style>
+    div {
+      height: 120px;
+      padding: 18px 22px;
+      border: 3px solid rgb(174, 174, 174);
+      border-radius: 10px;
+    }
+
+    form {
+      border: 2px solid rgb(185, 163, 85);
+      border-radius: 10px;
+    }
+
+    form:focus-within {
+      background-color: rgb(255, 253, 246);
+    }
+
+    td {
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    input {
+      padding: 8px 10px;
+      border: 2px solid rgba(0, 0, 0, 0.624);
+      border-radius: 6px;
+      outline: none;
+    }
+    input:focus {
+      border-color: rgb(185, 163, 85);
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <form>
+        <table>
+            <tr>
+                <td>Username: </td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="pass"></td>
+            </tr>
+        </table>
+    </form>
+  </div>
+</body>
+</html>
